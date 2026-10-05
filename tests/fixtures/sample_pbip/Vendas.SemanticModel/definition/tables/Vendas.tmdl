@@ -1,0 +1,23 @@
+table Vendas
+
+	column RegiaoId
+		dataType: int64
+		sourceColumn: RegiaoId
+		summarizeBy: none
+
+	column Valor
+		dataType: double
+		sourceColumn: Valor
+		summarizeBy: sum
+
+	measure 'Total Vendas' = SUM(Vendas[Valor])
+		formatString: #,##0.00
+
+	partition Vendas = m
+		mode: import
+		source =
+				let
+					Source = 1
+				in
+					Source
+

@@ -1,0 +1,5 @@
+model Model
+	culture: pt-BR
+
+ref table Vendas
+ref table Regiao

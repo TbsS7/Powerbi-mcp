@@ -1,0 +1,2756 @@
+{
+  "advancedSlicerVisual": {
+    "value": {
+      "fontSize": {
+        "type": "number",
+        "minimum": 8,
+        "maximum": 60
+      },
+      "fontColor": {
+        "type": "color"
+      },
+      "bold": {
+        "type": "boolean"
+      },
+      "fontFamily": {
+        "type": "string"
+      },
+      "labelDisplayUnits": {
+        "type": "integer",
+        "enum": [
+          0,
+          1,
+          1000,
+          1000000,
+          1000000000,
+          1000000000000,
+          -1
+        ]
+      },
+      "labelPrecision": {
+        "type": "integer"
+      }
+    },
+    "label": {
+      "show": {
+        "type": "boolean"
+      },
+      "fontSize": {
+        "type": "number",
+        "minimum": 8,
+        "maximum": 60
+      },
+      "fontColor": {
+        "type": "color"
+      },
+      "bold": {
+        "type": "boolean"
+      }
+    },
+    "fillCustom": {
+      "show": {
+        "type": "boolean"
+      },
+      "fillColor": {
+        "type": "color"
+      },
+      "transparency": {
+        "type": "number"
+      }
+    },
+    "outline": {
+      "show": {
+        "type": "boolean"
+      }
+    }
+  },
+  "areaChart": {
+    "labels": {
+      "show": {
+        "type": "boolean"
+      },
+      "labelPosition": {
+        "type": "string",
+        "enum": [
+          "Auto",
+          "InsideEnd",
+          "OutsideEnd",
+          "InsideCenter",
+          "InsideBase",
+          "Above",
+          "Under"
+        ]
+      },
+      "labelDisplayUnits": {
+        "type": "integer",
+        "enum": [
+          0,
+          1,
+          1000,
+          1000000,
+          1000000000,
+          1000000000000,
+          -1
+        ]
+      },
+      "labelPrecision": {
+        "type": "integer"
+      },
+      "fontSize": {
+        "type": "number",
+        "minimum": 8,
+        "maximum": 60
+      },
+      "color": {
+        "type": "color"
+      },
+      "bold": {
+        "type": "boolean"
+      },
+      "fontFamily": {
+        "type": "string"
+      }
+    },
+    "legend": {
+      "show": {
+        "type": "boolean"
+      },
+      "position": {
+        "type": "string",
+        "enum": [
+          "Top",
+          "TopCenter",
+          "TopRight",
+          "Left",
+          "Right",
+          "LeftCenter",
+          "RightCenter",
+          "Bottom",
+          "BottomCenter",
+          "BottomRight"
+        ]
+      },
+      "showTitle": {
+        "type": "boolean"
+      },
+      "titleText": {
+        "type": "string"
+      },
+      "fontSize": {
+        "type": "number",
+        "minimum": 8,
+        "maximum": 60
+      }
+    },
+    "categoryAxis": {
+      "show": {
+        "type": "boolean"
+      },
+      "showAxisTitle": {
+        "type": "boolean"
+      },
+      "titleText": {
+        "type": "string"
+      },
+      "fontSize": {
+        "type": "number",
+        "minimum": 8,
+        "maximum": 60
+      },
+      "invertAxis": {
+        "type": "boolean"
+      },
+      "start": {
+        "type": "number"
+      },
+      "end": {
+        "type": "number"
+      },
+      "labelDisplayUnits": {
+        "type": "integer",
+        "enum": [
+          0,
+          1,
+          1000,
+          1000000,
+          1000000000,
+          1000000000000
+        ]
+      },
+      "gridlineShow": {
+        "type": "boolean"
+      },
+      "preferredCategoryWidth": {
+        "type": "number"
+      },
+      "axisType": {
+        "type": "string",
+        "enum": [
+          "Scalar",
+          "Categorical"
+        ]
+      }
+    },
+    "dataPoint": {
+      "defaultColor": {
+        "type": "color"
+      }
+    },
+    "valueAxis": {
+      "show": {
+        "type": "boolean"
+      },
+      "showAxisTitle": {
+        "type": "boolean"
+      },
+      "titleText": {
+        "type": "string"
+      },
+      "fontSize": {
+        "type": "number",
+        "minimum": 8,
+        "maximum": 60
+      },
+      "invertAxis": {
+        "type": "boolean"
+      },
+      "start": {
+        "type": "number"
+      },
+      "end": {
+        "type": "number"
+      },
+      "labelDisplayUnits": {
+        "type": "integer",
+        "enum": [
+          0,
+          1,
+          1000,
+          1000000,
+          1000000000,
+          1000000000000
+        ]
+      },
+      "gridlineShow": {
+        "type": "boolean"
+      }
+    }
+  },
+  "azureMap": {
+    "labels": {
+      "show": {
+        "type": "boolean"
+      },
+      "labelDisplayUnits": {
+        "type": "integer",
+        "enum": [
+          0,
+          1,
+          1000,
+          1000000,
+          1000000000,
+          1000000000000
+        ]
+      },
+      "labelPrecision": {
+        "type": "integer"
+      },
+      "color": {
+        "type": "color"
+      }
+    },
+    "categoryLabels": {
+      "show": {
+        "type": "boolean"
+      },
+      "fontSize": {
+        "type": "number",
+        "minimum": 8,
+        "maximum": 60
+      },
+      "color": {
+        "type": "color"
+      },
+      "bold": {
+        "type": "boolean"
+      }
+    },
+    "legend": {
+      "show": {
+        "type": "boolean"
+      },
+      "position": {
+        "type": "string",
+        "enum": [
+          "Top",
+          "TopCenter",
+          "TopRight",
+          "Left",
+          "Right",
+          "LeftCenter",
+          "RightCenter",
+          "Bottom",
+          "BottomCenter",
+          "BottomRight"
+        ]
+      },
+      "showTitle": {
+        "type": "boolean"
+      },
+      "titleText": {
+        "type": "string"
+      },
+      "fontSize": {
+        "type": "number",
+        "minimum": 8,
+        "maximum": 60
+      }
+    }
+  },
+  "barChart": {
+    "labels": {
+      "show": {
+        "type": "boolean"
+      },
+      "labelPosition": {
+        "type": "string",
+        "enum": [
+          "Auto",
+          "InsideEnd",
+          "OutsideEnd",
+          "InsideCenter",
+          "InsideBase",
+          "Above",
+          "Under"
+        ]
+      },
+      "labelDisplayUnits": {
+        "type": "integer",
+        "enum": [
+          0,
+          1,
+          1000,
+          1000000,
+          1000000000,
+          1000000000000,
+          -1
+        ]
+      },
+      "labelPrecision": {
+        "type": "integer"
+      },
+      "fontSize": {
+        "type": "number",
+        "minimum": 8,
+        "maximum": 60
+      },
+      "color": {
+        "type": "color"
+      },
+      "bold": {
+        "type": "boolean"
+      },
+      "fontFamily": {
+        "type": "string"
+      }
+    },
+    "legend": {
+      "show": {
+        "type": "boolean"
+      },
+      "position": {
+        "type": "string",
+        "enum": [
+          "Top",
+          "TopCenter",
+          "TopRight",
+          "Left",
+          "Right",
+          "LeftCenter",
+          "RightCenter",
+          "Bottom",
+          "BottomCenter",
+          "BottomRight"
+        ]
+      },
+      "showTitle": {
+        "type": "boolean"
+      },
+      "titleText": {
+        "type": "string"
+      },
+      "fontSize": {
+        "type": "number",
+        "minimum": 8,
+        "maximum": 60
+      }
+    },
+    "categoryAxis": {
+      "show": {
+        "type": "boolean"
+      },
+      "showAxisTitle": {
+        "type": "boolean"
+      },
+      "titleText": {
+        "type": "string"
+      },
+      "fontSize": {
+        "type": "number",
+        "minimum": 8,
+        "maximum": 60
+      },
+      "invertAxis": {
+        "type": "boolean"
+      },
+      "start": {
+        "type": "number"
+      },
+      "end": {
+        "type": "number"
+      },
+      "labelDisplayUnits": {
+        "type": "integer",
+        "enum": [
+          0,
+          1,
+          1000,
+          1000000,
+          1000000000,
+          1000000000000
+        ]
+      },
+      "gridlineShow": {
+        "type": "boolean"
+      },
+      "preferredCategoryWidth": {
+        "type": "number"
+      },
+      "axisType": {
+        "type": "string",
+        "enum": [
+          "Scalar",
+          "Categorical"
+        ]
+      }
+    },
+    "dataPoint": {
+      "defaultColor": {
+        "type": "color"
+      }
+    },
+    "valueAxis": {
+      "show": {
+        "type": "boolean"
+      },
+      "showAxisTitle": {
+        "type": "boolean"
+      },
+      "titleText": {
+        "type": "string"
+      },
+      "fontSize": {
+        "type": "number",
+        "minimum": 8,
+        "maximum": 60
+      },
+      "invertAxis": {
+        "type": "boolean"
+      },
+      "start": {
+        "type": "number"
+      },
+      "end": {
+        "type": "number"
+      },
+      "labelDisplayUnits": {
+        "type": "integer",
+        "enum": [
+          0,
+          1,
+          1000,
+          1000000,
+          1000000000,
+          1000000000000
+        ]
+      },
+      "gridlineShow": {
+        "type": "boolean"
+      }
+    }
+  },
+  "card": {
+    "labels": {
+      "labelDisplayUnits": {
+        "type": "integer",
+        "enum": [
+          0,
+          1,
+          1000,
+          1000000,
+          1000000000,
+          1000000000000
+        ]
+      },
+      "labelPrecision": {
+        "type": "integer"
+      },
+      "fontSize": {
+        "type": "number",
+        "minimum": 8,
+        "maximum": 60
+      },
+      "color": {
+        "type": "color"
+      },
+      "bold": {
+        "type": "boolean"
+      },
+      "fontFamily": {
+        "type": "string"
+      }
+    },
+    "categoryLabels": {
+      "show": {
+        "type": "boolean"
+      },
+      "fontSize": {
+        "type": "number",
+        "minimum": 8,
+        "maximum": 60
+      },
+      "color": {
+        "type": "color"
+      },
+      "bold": {
+        "type": "boolean"
+      }
+    }
+  },
+  "cardVisual": {
+    "value": {
+      "fontSize": {
+        "type": "number",
+        "minimum": 8,
+        "maximum": 60
+      },
+      "fontColor": {
+        "type": "color"
+      },
+      "bold": {
+        "type": "boolean"
+      },
+      "fontFamily": {
+        "type": "string"
+      },
+      "labelDisplayUnits": {
+        "type": "integer",
+        "enum": [
+          0,
+          1,
+          1000,
+          1000000,
+          1000000000,
+          1000000000000,
+          -1
+        ]
+      },
+      "labelPrecision": {
+        "type": "integer"
+      }
+    },
+    "label": {
+      "show": {
+        "type": "boolean"
+      },
+      "fontSize": {
+        "type": "number",
+        "minimum": 8,
+        "maximum": 60
+      },
+      "fontColor": {
+        "type": "color"
+      },
+      "bold": {
+        "type": "boolean"
+      },
+      "text": {
+        "type": "string"
+      }
+    },
+    "fillCustom": {
+      "show": {
+        "type": "boolean"
+      },
+      "fillColor": {
+        "type": "color"
+      },
+      "transparency": {
+        "type": "number"
+      }
+    },
+    "outline": {
+      "show": {
+        "type": "boolean"
+      }
+    }
+  },
+  "clusteredBarChart": {
+    "labels": {
+      "show": {
+        "type": "boolean"
+      },
+      "labelPosition": {
+        "type": "string",
+        "enum": [
+          "Auto",
+          "InsideEnd",
+          "OutsideEnd",
+          "InsideCenter",
+          "InsideBase",
+          "Above",
+          "Under"
+        ]
+      },
+      "labelDisplayUnits": {
+        "type": "integer",
+        "enum": [
+          0,
+          1,
+          1000,
+          1000000,
+          1000000000,
+          1000000000000,
+          -1
+        ]
+      },
+      "labelPrecision": {
+        "type": "integer"
+      },
+      "fontSize": {
+        "type": "number",
+        "minimum": 8,
+        "maximum": 60
+      },
+      "color": {
+        "type": "color"
+      },
+      "bold": {
+        "type": "boolean"
+      },
+      "fontFamily": {
+        "type": "string"
+      }
+    },
+    "legend": {
+      "show": {
+        "type": "boolean"
+      },
+      "position": {
+        "type": "string",
+        "enum": [
+          "Top",
+          "TopCenter",
+          "TopRight",
+          "Left",
+          "Right",
+          "LeftCenter",
+          "RightCenter",
+          "Bottom",
+          "BottomCenter",
+          "BottomRight"
+        ]
+      },
+      "showTitle": {
+        "type": "boolean"
+      },
+      "titleText": {
+        "type": "string"
+      },
+      "fontSize": {
+        "type": "number",
+        "minimum": 8,
+        "maximum": 60
+      }
+    },
+    "categoryAxis": {
+      "show": {
+        "type": "boolean"
+      },
+      "showAxisTitle": {
+        "type": "boolean"
+      },
+      "titleText": {
+        "type": "string"
+      },
+      "fontSize": {
+        "type": "number",
+        "minimum": 8,
+        "maximum": 60
+      },
+      "invertAxis": {
+        "type": "boolean"
+      },
+      "start": {
+        "type": "number"
+      },
+      "end": {
+        "type": "number"
+      },
+      "labelDisplayUnits": {
+        "type": "integer",
+        "enum": [
+          0,
+          1,
+          1000,
+          1000000,
+          1000000000,
+          1000000000000
+        ]
+      },
+      "gridlineShow": {
+        "type": "boolean"
+      },
+      "preferredCategoryWidth": {
+        "type": "number"
+      },
+      "axisType": {
+        "type": "string",
+        "enum": [
+          "Scalar",
+          "Categorical"
+        ]
+      }
+    },
+    "dataPoint": {
+      "defaultColor": {
+        "type": "color"
+      }
+    },
+    "valueAxis": {
+      "show": {
+        "type": "boolean"
+      },
+      "showAxisTitle": {
+        "type": "boolean"
+      },
+      "titleText": {
+        "type": "string"
+      },
+      "fontSize": {
+        "type": "number",
+        "minimum": 8,
+        "maximum": 60
+      },
+      "invertAxis": {
+        "type": "boolean"
+      },
+      "start": {
+        "type": "number"
+      },
+      "end": {
+        "type": "number"
+      },
+      "labelDisplayUnits": {
+        "type": "integer",
+        "enum": [
+          0,
+          1,
+          1000,
+          1000000,
+          1000000000,
+          1000000000000
+        ]
+      },
+      "gridlineShow": {
+        "type": "boolean"
+      }
+    }
+  },
+  "clusteredColumnChart": {
+    "labels": {
+      "show": {
+        "type": "boolean"
+      },
+      "labelPosition": {
+        "type": "string",
+        "enum": [
+          "Auto",
+          "InsideEnd",
+          "OutsideEnd",
+          "InsideCenter",
+          "InsideBase",
+          "Above",
+          "Under"
+        ]
+      },
+      "labelDisplayUnits": {
+        "type": "integer",
+        "enum": [
+          0,
+          1,
+          1000,
+          1000000,
+          1000000000,
+          1000000000000,
+          -1
+        ]
+      },
+      "labelPrecision": {
+        "type": "integer"
+      },
+      "fontSize": {
+        "type": "number",
+        "minimum": 8,
+        "maximum": 60
+      },
+      "color": {
+        "type": "color"
+      },
+      "bold": {
+        "type": "boolean"
+      },
+      "fontFamily": {
+        "type": "string"
+      }
+    },
+    "legend": {
+      "show": {
+        "type": "boolean"
+      },
+      "position": {
+        "type": "string",
+        "enum": [
+          "Top",
+          "TopCenter",
+          "TopRight",
+          "Left",
+          "Right",
+          "LeftCenter",
+          "RightCenter",
+          "Bottom",
+          "BottomCenter",
+          "BottomRight"
+        ]
+      },
+      "showTitle": {
+        "type": "boolean"
+      },
+      "titleText": {
+        "type": "string"
+      },
+      "fontSize": {
+        "type": "number",
+        "minimum": 8,
+        "maximum": 60
+      }
+    },
+    "categoryAxis": {
+      "show": {
+        "type": "boolean"
+      },
+      "showAxisTitle": {
+        "type": "boolean"
+      },
+      "titleText": {
+        "type": "string"
+      },
+      "fontSize": {
+        "type": "number",
+        "minimum": 8,
+        "maximum": 60
+      },
+      "invertAxis": {
+        "type": "boolean"
+      },
+      "start": {
+        "type": "number"
+      },
+      "end": {
+        "type": "number"
+      },
+      "labelDisplayUnits": {
+        "type": "integer",
+        "enum": [
+          0,
+          1,
+          1000,
+          1000000,
+          1000000000,
+          1000000000000
+        ]
+      },
+      "gridlineShow": {
+        "type": "boolean"
+      },
+      "preferredCategoryWidth": {
+        "type": "number"
+      },
+      "axisType": {
+        "type": "string",
+        "enum": [
+          "Scalar",
+          "Categorical"
+        ]
+      }
+    },
+    "dataPoint": {
+      "defaultColor": {
+        "type": "color"
+      }
+    },
+    "valueAxis": {
+      "show": {
+        "type": "boolean"
+      },
+      "showAxisTitle": {
+        "type": "boolean"
+      },
+      "titleText": {
+        "type": "string"
+      },
+      "fontSize": {
+        "type": "number",
+        "minimum": 8,
+        "maximum": 60
+      },
+      "invertAxis": {
+        "type": "boolean"
+      },
+      "start": {
+        "type": "number"
+      },
+      "end": {
+        "type": "number"
+      },
+      "labelDisplayUnits": {
+        "type": "integer",
+        "enum": [
+          0,
+          1,
+          1000,
+          1000000,
+          1000000000,
+          1000000000000
+        ]
+      },
+      "gridlineShow": {
+        "type": "boolean"
+      }
+    }
+  },
+  "columnChart": {
+    "labels": {
+      "show": {
+        "type": "boolean"
+      },
+      "labelPosition": {
+        "type": "string",
+        "enum": [
+          "Auto",
+          "InsideEnd",
+          "OutsideEnd",
+          "InsideCenter",
+          "InsideBase",
+          "Above",
+          "Under"
+        ]
+      },
+      "labelDisplayUnits": {
+        "type": "integer",
+        "enum": [
+          0,
+          1,
+          1000,
+          1000000,
+          1000000000,
+          1000000000000,
+          -1
+        ]
+      },
+      "labelPrecision": {
+        "type": "integer"
+      },
+      "fontSize": {
+        "type": "number",
+        "minimum": 8,
+        "maximum": 60
+      },
+      "color": {
+        "type": "color"
+      },
+      "bold": {
+        "type": "boolean"
+      },
+      "fontFamily": {
+        "type": "string"
+      }
+    },
+    "legend": {
+      "show": {
+        "type": "boolean"
+      },
+      "position": {
+        "type": "string",
+        "enum": [
+          "Top",
+          "TopCenter",
+          "TopRight",
+          "Left",
+          "Right",
+          "LeftCenter",
+          "RightCenter",
+          "Bottom",
+          "BottomCenter",
+          "BottomRight"
+        ]
+      },
+      "showTitle": {
+        "type": "boolean"
+      },
+      "titleText": {
+        "type": "string"
+      },
+      "fontSize": {
+        "type": "number",
+        "minimum": 8,
+        "maximum": 60
+      }
+    },
+    "categoryAxis": {
+      "show": {
+        "type": "boolean"
+      },
+      "showAxisTitle": {
+        "type": "boolean"
+      },
+      "titleText": {
+        "type": "string"
+      },
+      "fontSize": {
+        "type": "number",
+        "minimum": 8,
+        "maximum": 60
+      },
+      "invertAxis": {
+        "type": "boolean"
+      },
+      "start": {
+        "type": "number"
+      },
+      "end": {
+        "type": "number"
+      },
+      "labelDisplayUnits": {
+        "type": "integer",
+        "enum": [
+          0,
+          1,
+          1000,
+          1000000,
+          1000000000,
+          1000000000000
+        ]
+      },
+      "gridlineShow": {
+        "type": "boolean"
+      },
+      "preferredCategoryWidth": {
+        "type": "number"
+      },
+      "axisType": {
+        "type": "string",
+        "enum": [
+          "Scalar",
+          "Categorical"
+        ]
+      }
+    },
+    "dataPoint": {
+      "defaultColor": {
+        "type": "color"
+      }
+    },
+    "valueAxis": {
+      "show": {
+        "type": "boolean"
+      },
+      "showAxisTitle": {
+        "type": "boolean"
+      },
+      "titleText": {
+        "type": "string"
+      },
+      "fontSize": {
+        "type": "number",
+        "minimum": 8,
+        "maximum": 60
+      },
+      "invertAxis": {
+        "type": "boolean"
+      },
+      "start": {
+        "type": "number"
+      },
+      "end": {
+        "type": "number"
+      },
+      "labelDisplayUnits": {
+        "type": "integer",
+        "enum": [
+          0,
+          1,
+          1000,
+          1000000,
+          1000000000,
+          1000000000000
+        ]
+      },
+      "gridlineShow": {
+        "type": "boolean"
+      }
+    }
+  },
+  "decompositionTreeVisual": {
+    "categoryLabels": {
+      "categoryLabelFontColor": {
+        "type": "color"
+      },
+      "categoryLabelFontSize": {
+        "type": "number",
+        "minimum": 8,
+        "maximum": 60
+      }
+    },
+    "dataBars": {
+      "positiveBarColor": {
+        "type": "color"
+      },
+      "dataBarColor": {
+        "type": "color"
+      },
+      "dataBarBackgroundColor": {
+        "type": "color"
+      }
+    },
+    "dataLabels": {
+      "dataLabelFontColor": {
+        "type": "color"
+      },
+      "dataLabelDisplayUnits": {
+        "type": "integer",
+        "enum": [
+          0,
+          1,
+          1000,
+          1000000,
+          1000000000,
+          1000000000000
+        ]
+      },
+      "dataLabelPrecision": {
+        "type": "integer"
+      },
+      "dataLabelFontSize": {
+        "type": "number",
+        "minimum": 8,
+        "maximum": 60
+      }
+    },
+    "levelHeader": {
+      "levelHeaderBackgroundColor": {
+        "type": "color"
+      },
+      "levelTitleFontColor": {
+        "type": "color"
+      },
+      "levelSubtitleFontColor": {
+        "type": "color"
+      }
+    },
+    "tree": {
+      "connectorDefaultColor": {
+        "type": "color"
+      },
+      "accentColor": {
+        "type": "color"
+      },
+      "barsPerLevel": {
+        "type": "integer"
+      },
+      "density": {
+        "type": "string",
+        "enum": [
+          "dense",
+          "default",
+          "sparse"
+        ]
+      }
+    }
+  },
+  "donutChart": {
+    "labels": {
+      "show": {
+        "type": "boolean"
+      },
+      "labelDisplayUnits": {
+        "type": "integer",
+        "enum": [
+          0,
+          1,
+          1000,
+          1000000,
+          1000000000,
+          1000000000000
+        ]
+      },
+      "labelPrecision": {
+        "type": "integer"
+      },
+      "fontSize": {
+        "type": "number",
+        "minimum": 8,
+        "maximum": 60
+      },
+      "color": {
+        "type": "color"
+      },
+      "bold": {
+        "type": "boolean"
+      },
+      "fontFamily": {
+        "type": "string"
+      },
+      "labelStyle": {
+        "type": "string",
+        "enum": [
+          "Category",
+          "Data",
+          "Percent of total",
+          "Both",
+          "Category, percent of total",
+          "Data value, percent of total",
+          "Category, data value, percent of total"
+        ]
+      }
+    },
+    "centerValue": {
+      "show": {
+        "type": "boolean"
+      }
+    },
+    "value": {
+      "fontSize": {
+        "type": "number",
+        "minimum": 8,
+        "maximum": 60
+      },
+      "fontColor": {
+        "type": "color"
+      },
+      "bold": {
+        "type": "boolean"
+      },
+      "fontFamily": {
+        "type": "string"
+      },
+      "labelDisplayUnits": {
+        "type": "integer",
+        "enum": [
+          0,
+          1,
+          1000,
+          1000000,
+          1000000000,
+          1000000000000,
+          -1
+        ]
+      },
+      "labelPrecision": {
+        "type": "integer"
+      }
+    },
+    "label": {
+      "show": {
+        "type": "boolean"
+      },
+      "fontSize": {
+        "type": "number",
+        "minimum": 8,
+        "maximum": 60
+      },
+      "fontColor": {
+        "type": "color"
+      },
+      "bold": {
+        "type": "boolean"
+      },
+      "text": {
+        "type": "string"
+      }
+    },
+    "legend": {
+      "show": {
+        "type": "boolean"
+      },
+      "position": {
+        "type": "string",
+        "enum": [
+          "Top",
+          "TopCenter",
+          "TopRight",
+          "Left",
+          "Right",
+          "LeftCenter",
+          "RightCenter",
+          "Bottom",
+          "BottomCenter",
+          "BottomRight"
+        ]
+      },
+      "showTitle": {
+        "type": "boolean"
+      },
+      "titleText": {
+        "type": "string"
+      },
+      "fontSize": {
+        "type": "number",
+        "minimum": 8,
+        "maximum": 60
+      }
+    },
+    "dataPoint": {
+      "defaultColor": {
+        "type": "color"
+      }
+    }
+  },
+  "funnel": {
+    "labels": {
+      "show": {
+        "type": "boolean"
+      },
+      "labelPosition": {
+        "type": "string",
+        "enum": [
+          "Auto",
+          "InsideEnd",
+          "OutsideEnd",
+          "InsideCenter",
+          "InsideBase",
+          "Above",
+          "Under"
+        ]
+      },
+      "labelDisplayUnits": {
+        "type": "integer",
+        "enum": [
+          0,
+          1,
+          1000,
+          1000000,
+          1000000000,
+          1000000000000
+        ]
+      },
+      "labelPrecision": {
+        "type": "integer"
+      },
+      "fontSize": {
+        "type": "number",
+        "minimum": 8,
+        "maximum": 60
+      },
+      "color": {
+        "type": "color"
+      },
+      "bold": {
+        "type": "boolean"
+      },
+      "fontFamily": {
+        "type": "string"
+      }
+    },
+    "categoryAxis": {
+      "show": {
+        "type": "boolean"
+      },
+      "fontSize": {
+        "type": "number",
+        "minimum": 8,
+        "maximum": 60
+      }
+    },
+    "dataPoint": {
+      "defaultColor": {
+        "type": "color"
+      }
+    }
+  },
+  "gauge": {
+    "labels": {
+      "show": {
+        "type": "boolean"
+      },
+      "labelDisplayUnits": {
+        "type": "integer",
+        "enum": [
+          0,
+          1,
+          1000,
+          1000000,
+          1000000000,
+          1000000000000
+        ]
+      },
+      "labelPrecision": {
+        "type": "integer"
+      },
+      "fontSize": {
+        "type": "number",
+        "minimum": 8,
+        "maximum": 60
+      },
+      "color": {
+        "type": "color"
+      },
+      "bold": {
+        "type": "boolean"
+      },
+      "fontFamily": {
+        "type": "string"
+      }
+    }
+  },
+  "hundredPercentStackedBarChart": {
+    "labels": {
+      "show": {
+        "type": "boolean"
+      },
+      "labelPosition": {
+        "type": "string",
+        "enum": [
+          "Auto",
+          "InsideEnd",
+          "OutsideEnd",
+          "InsideCenter",
+          "InsideBase",
+          "Above",
+          "Under"
+        ]
+      },
+      "labelDisplayUnits": {
+        "type": "integer",
+        "enum": [
+          0,
+          1,
+          1000,
+          1000000,
+          1000000000,
+          1000000000000,
+          -1
+        ]
+      },
+      "labelPrecision": {
+        "type": "integer"
+      },
+      "fontSize": {
+        "type": "number",
+        "minimum": 8,
+        "maximum": 60
+      },
+      "color": {
+        "type": "color"
+      },
+      "bold": {
+        "type": "boolean"
+      },
+      "fontFamily": {
+        "type": "string"
+      }
+    },
+    "legend": {
+      "show": {
+        "type": "boolean"
+      },
+      "position": {
+        "type": "string",
+        "enum": [
+          "Top",
+          "TopCenter",
+          "TopRight",
+          "Left",
+          "Right",
+          "LeftCenter",
+          "RightCenter",
+          "Bottom",
+          "BottomCenter",
+          "BottomRight"
+        ]
+      },
+      "showTitle": {
+        "type": "boolean"
+      },
+      "titleText": {
+        "type": "string"
+      },
+      "fontSize": {
+        "type": "number",
+        "minimum": 8,
+        "maximum": 60
+      }
+    },
+    "categoryAxis": {
+      "show": {
+        "type": "boolean"
+      },
+      "showAxisTitle": {
+        "type": "boolean"
+      },
+      "titleText": {
+        "type": "string"
+      },
+      "fontSize": {
+        "type": "number",
+        "minimum": 8,
+        "maximum": 60
+      },
+      "invertAxis": {
+        "type": "boolean"
+      },
+      "start": {
+        "type": "number"
+      },
+      "end": {
+        "type": "number"
+      },
+      "labelDisplayUnits": {
+        "type": "integer",
+        "enum": [
+          0,
+          1,
+          1000,
+          1000000,
+          1000000000,
+          1000000000000
+        ]
+      },
+      "gridlineShow": {
+        "type": "boolean"
+      },
+      "preferredCategoryWidth": {
+        "type": "number"
+      },
+      "axisType": {
+        "type": "string",
+        "enum": [
+          "Scalar",
+          "Categorical"
+        ]
+      }
+    },
+    "dataPoint": {
+      "defaultColor": {
+        "type": "color"
+      }
+    },
+    "valueAxis": {
+      "show": {
+        "type": "boolean"
+      },
+      "showAxisTitle": {
+        "type": "boolean"
+      },
+      "titleText": {
+        "type": "string"
+      },
+      "fontSize": {
+        "type": "number",
+        "minimum": 8,
+        "maximum": 60
+      },
+      "invertAxis": {
+        "type": "boolean"
+      },
+      "start": {
+        "type": "number"
+      },
+      "end": {
+        "type": "number"
+      },
+      "labelDisplayUnits": {
+        "type": "integer",
+        "enum": [
+          0,
+          1,
+          1000,
+          1000000,
+          1000000000,
+          1000000000000
+        ]
+      },
+      "gridlineShow": {
+        "type": "boolean"
+      }
+    }
+  },
+  "hundredPercentStackedColumnChart": {
+    "labels": {
+      "show": {
+        "type": "boolean"
+      },
+      "labelPosition": {
+        "type": "string",
+        "enum": [
+          "Auto",
+          "InsideEnd",
+          "OutsideEnd",
+          "InsideCenter",
+          "InsideBase",
+          "Above",
+          "Under"
+        ]
+      },
+      "labelDisplayUnits": {
+        "type": "integer",
+        "enum": [
+          0,
+          1,
+          1000,
+          1000000,
+          1000000000,
+          1000000000000,
+          -1
+        ]
+      },
+      "labelPrecision": {
+        "type": "integer"
+      },
+      "fontSize": {
+        "type": "number",
+        "minimum": 8,
+        "maximum": 60
+      },
+      "color": {
+        "type": "color"
+      },
+      "bold": {
+        "type": "boolean"
+      },
+      "fontFamily": {
+        "type": "string"
+      }
+    },
+    "legend": {
+      "show": {
+        "type": "boolean"
+      },
+      "position": {
+        "type": "string",
+        "enum": [
+          "Top",
+          "TopCenter",
+          "TopRight",
+          "Left",
+          "Right",
+          "LeftCenter",
+          "RightCenter",
+          "Bottom",
+          "BottomCenter",
+          "BottomRight"
+        ]
+      },
+      "showTitle": {
+        "type": "boolean"
+      },
+      "titleText": {
+        "type": "string"
+      },
+      "fontSize": {
+        "type": "number",
+        "minimum": 8,
+        "maximum": 60
+      }
+    },
+    "categoryAxis": {
+      "show": {
+        "type": "boolean"
+      },
+      "showAxisTitle": {
+        "type": "boolean"
+      },
+      "titleText": {
+        "type": "string"
+      },
+      "fontSize": {
+        "type": "number",
+        "minimum": 8,
+        "maximum": 60
+      },
+      "invertAxis": {
+        "type": "boolean"
+      },
+      "start": {
+        "type": "number"
+      },
+      "end": {
+        "type": "number"
+      },
+      "labelDisplayUnits": {
+        "type": "integer",
+        "enum": [
+          0,
+          1,
+          1000,
+          1000000,
+          1000000000,
+          1000000000000
+        ]
+      },
+      "gridlineShow": {
+        "type": "boolean"
+      },
+      "preferredCategoryWidth": {
+        "type": "number"
+      },
+      "axisType": {
+        "type": "string",
+        "enum": [
+          "Scalar",
+          "Categorical"
+        ]
+      }
+    },
+    "dataPoint": {
+      "defaultColor": {
+        "type": "color"
+      }
+    },
+    "valueAxis": {
+      "show": {
+        "type": "boolean"
+      },
+      "showAxisTitle": {
+        "type": "boolean"
+      },
+      "titleText": {
+        "type": "string"
+      },
+      "fontSize": {
+        "type": "number",
+        "minimum": 8,
+        "maximum": 60
+      },
+      "invertAxis": {
+        "type": "boolean"
+      },
+      "start": {
+        "type": "number"
+      },
+      "end": {
+        "type": "number"
+      },
+      "labelDisplayUnits": {
+        "type": "integer",
+        "enum": [
+          0,
+          1,
+          1000,
+          1000000,
+          1000000000,
+          1000000000000
+        ]
+      },
+      "gridlineShow": {
+        "type": "boolean"
+      }
+    }
+  },
+  "lineChart": {
+    "labels": {
+      "show": {
+        "type": "boolean"
+      },
+      "labelPosition": {
+        "type": "string",
+        "enum": [
+          "Auto",
+          "InsideEnd",
+          "OutsideEnd",
+          "InsideCenter",
+          "InsideBase",
+          "Above",
+          "Under"
+        ]
+      },
+      "labelDisplayUnits": {
+        "type": "integer",
+        "enum": [
+          0,
+          1,
+          1000,
+          1000000,
+          1000000000,
+          1000000000000,
+          -1
+        ]
+      },
+      "labelPrecision": {
+        "type": "integer"
+      },
+      "fontSize": {
+        "type": "number",
+        "minimum": 8,
+        "maximum": 60
+      },
+      "color": {
+        "type": "color"
+      },
+      "bold": {
+        "type": "boolean"
+      },
+      "fontFamily": {
+        "type": "string"
+      }
+    },
+    "legend": {
+      "show": {
+        "type": "boolean"
+      },
+      "position": {
+        "type": "string",
+        "enum": [
+          "Top",
+          "TopCenter",
+          "TopRight",
+          "Left",
+          "Right",
+          "LeftCenter",
+          "RightCenter",
+          "Bottom",
+          "BottomCenter",
+          "BottomRight"
+        ]
+      },
+      "showTitle": {
+        "type": "boolean"
+      },
+      "titleText": {
+        "type": "string"
+      },
+      "fontSize": {
+        "type": "number",
+        "minimum": 8,
+        "maximum": 60
+      }
+    },
+    "categoryAxis": {
+      "show": {
+        "type": "boolean"
+      },
+      "showAxisTitle": {
+        "type": "boolean"
+      },
+      "titleText": {
+        "type": "string"
+      },
+      "fontSize": {
+        "type": "number",
+        "minimum": 8,
+        "maximum": 60
+      },
+      "invertAxis": {
+        "type": "boolean"
+      },
+      "start": {
+        "type": "number"
+      },
+      "end": {
+        "type": "number"
+      },
+      "labelDisplayUnits": {
+        "type": "integer",
+        "enum": [
+          0,
+          1,
+          1000,
+          1000000,
+          1000000000,
+          1000000000000
+        ]
+      },
+      "gridlineShow": {
+        "type": "boolean"
+      },
+      "preferredCategoryWidth": {
+        "type": "number"
+      },
+      "axisType": {
+        "type": "string",
+        "enum": [
+          "Scalar",
+          "Categorical"
+        ]
+      }
+    },
+    "dataPoint": {
+      "defaultColor": {
+        "type": "color"
+      }
+    },
+    "valueAxis": {
+      "show": {
+        "type": "boolean"
+      },
+      "showAxisTitle": {
+        "type": "boolean"
+      },
+      "titleText": {
+        "type": "string"
+      },
+      "fontSize": {
+        "type": "number",
+        "minimum": 8,
+        "maximum": 60
+      },
+      "invertAxis": {
+        "type": "boolean"
+      },
+      "start": {
+        "type": "number"
+      },
+      "end": {
+        "type": "number"
+      },
+      "labelDisplayUnits": {
+        "type": "integer",
+        "enum": [
+          0,
+          1,
+          1000,
+          1000000,
+          1000000000,
+          1000000000000
+        ]
+      },
+      "gridlineShow": {
+        "type": "boolean"
+      }
+    }
+  },
+  "lineClusteredColumnComboChart": {
+    "labels": {
+      "show": {
+        "type": "boolean"
+      },
+      "labelPosition": {
+        "type": "string",
+        "enum": [
+          "Auto",
+          "InsideEnd",
+          "OutsideEnd",
+          "InsideCenter",
+          "InsideBase",
+          "Above",
+          "Under"
+        ]
+      },
+      "labelDisplayUnits": {
+        "type": "integer",
+        "enum": [
+          0,
+          1,
+          1000,
+          1000000,
+          1000000000,
+          1000000000000
+        ]
+      },
+      "labelPrecision": {
+        "type": "integer"
+      },
+      "fontSize": {
+        "type": "number",
+        "minimum": 8,
+        "maximum": 60
+      },
+      "color": {
+        "type": "color"
+      },
+      "bold": {
+        "type": "boolean"
+      },
+      "fontFamily": {
+        "type": "string"
+      }
+    },
+    "legend": {
+      "show": {
+        "type": "boolean"
+      },
+      "position": {
+        "type": "string",
+        "enum": [
+          "Top",
+          "TopCenter",
+          "TopRight",
+          "Left",
+          "Right",
+          "LeftCenter",
+          "RightCenter",
+          "Bottom",
+          "BottomCenter",
+          "BottomRight"
+        ]
+      },
+      "showTitle": {
+        "type": "boolean"
+      },
+      "titleText": {
+        "type": "string"
+      },
+      "fontSize": {
+        "type": "number",
+        "minimum": 8,
+        "maximum": 60
+      }
+    },
+    "categoryAxis": {
+      "show": {
+        "type": "boolean"
+      },
+      "showAxisTitle": {
+        "type": "boolean"
+      },
+      "titleText": {
+        "type": "string"
+      },
+      "fontSize": {
+        "type": "number",
+        "minimum": 8,
+        "maximum": 60
+      },
+      "invertAxis": {
+        "type": "boolean"
+      },
+      "start": {
+        "type": "number"
+      },
+      "end": {
+        "type": "number"
+      },
+      "labelDisplayUnits": {
+        "type": "integer",
+        "enum": [
+          0,
+          1,
+          1000,
+          1000000,
+          1000000000,
+          1000000000000
+        ]
+      },
+      "gridlineShow": {
+        "type": "boolean"
+      },
+      "preferredCategoryWidth": {
+        "type": "number"
+      },
+      "axisType": {
+        "type": "string",
+        "enum": [
+          "Scalar",
+          "Categorical"
+        ]
+      }
+    },
+    "dataPoint": {
+      "defaultColor": {
+        "type": "color"
+      }
+    },
+    "valueAxis": {
+      "show": {
+        "type": "boolean"
+      },
+      "showAxisTitle": {
+        "type": "boolean"
+      },
+      "titleText": {
+        "type": "string"
+      },
+      "fontSize": {
+        "type": "number",
+        "minimum": 8,
+        "maximum": 60
+      },
+      "invertAxis": {
+        "type": "boolean"
+      },
+      "start": {
+        "type": "number"
+      },
+      "end": {
+        "type": "number"
+      },
+      "labelDisplayUnits": {
+        "type": "integer",
+        "enum": [
+          0,
+          1,
+          1000,
+          1000000,
+          1000000000,
+          1000000000000
+        ]
+      },
+      "gridlineShow": {
+        "type": "boolean"
+      }
+    }
+  },
+  "pieChart": {
+    "labels": {
+      "show": {
+        "type": "boolean"
+      },
+      "labelDisplayUnits": {
+        "type": "integer",
+        "enum": [
+          0,
+          1,
+          1000,
+          1000000,
+          1000000000,
+          1000000000000
+        ]
+      },
+      "labelPrecision": {
+        "type": "integer"
+      },
+      "fontSize": {
+        "type": "number",
+        "minimum": 8,
+        "maximum": 60
+      },
+      "color": {
+        "type": "color"
+      },
+      "bold": {
+        "type": "boolean"
+      },
+      "fontFamily": {
+        "type": "string"
+      },
+      "labelStyle": {
+        "type": "string",
+        "enum": [
+          "Category",
+          "Data",
+          "Percent of total",
+          "Both",
+          "Category, percent of total",
+          "Data value, percent of total",
+          "Category, data value, percent of total"
+        ]
+      }
+    },
+    "legend": {
+      "show": {
+        "type": "boolean"
+      },
+      "position": {
+        "type": "string",
+        "enum": [
+          "Top",
+          "TopCenter",
+          "TopRight",
+          "Left",
+          "Right",
+          "LeftCenter",
+          "RightCenter",
+          "Bottom",
+          "BottomCenter",
+          "BottomRight"
+        ]
+      },
+      "showTitle": {
+        "type": "boolean"
+      },
+      "titleText": {
+        "type": "string"
+      },
+      "fontSize": {
+        "type": "number",
+        "minimum": 8,
+        "maximum": 60
+      }
+    },
+    "dataPoint": {
+      "defaultColor": {
+        "type": "color"
+      }
+    }
+  },
+  "scatterChart": {
+    "categoryLabels": {
+      "show": {
+        "type": "boolean"
+      },
+      "fontSize": {
+        "type": "number",
+        "minimum": 8,
+        "maximum": 60
+      },
+      "color": {
+        "type": "color"
+      },
+      "bold": {
+        "type": "boolean"
+      }
+    },
+    "legend": {
+      "show": {
+        "type": "boolean"
+      },
+      "position": {
+        "type": "string",
+        "enum": [
+          "Top",
+          "TopCenter",
+          "TopRight",
+          "Left",
+          "Right",
+          "LeftCenter",
+          "RightCenter",
+          "Bottom",
+          "BottomCenter",
+          "BottomRight"
+        ]
+      },
+      "showTitle": {
+        "type": "boolean"
+      },
+      "titleText": {
+        "type": "string"
+      },
+      "fontSize": {
+        "type": "number",
+        "minimum": 8,
+        "maximum": 60
+      }
+    },
+    "categoryAxis": {
+      "show": {
+        "type": "boolean"
+      },
+      "showAxisTitle": {
+        "type": "boolean"
+      },
+      "titleText": {
+        "type": "string"
+      },
+      "fontSize": {
+        "type": "number",
+        "minimum": 8,
+        "maximum": 60
+      },
+      "invertAxis": {
+        "type": "boolean"
+      },
+      "start": {
+        "type": "number"
+      },
+      "end": {
+        "type": "number"
+      },
+      "labelDisplayUnits": {
+        "type": "integer",
+        "enum": [
+          0,
+          1,
+          1000,
+          1000000,
+          1000000000,
+          1000000000000
+        ]
+      },
+      "gridlineShow": {
+        "type": "boolean"
+      },
+      "preferredCategoryWidth": {
+        "type": "number"
+      },
+      "axisType": {
+        "type": "string",
+        "enum": [
+          "Scalar",
+          "Categorical"
+        ]
+      }
+    },
+    "dataPoint": {
+      "defaultColor": {
+        "type": "color"
+      }
+    },
+    "valueAxis": {
+      "show": {
+        "type": "boolean"
+      },
+      "showAxisTitle": {
+        "type": "boolean"
+      },
+      "titleText": {
+        "type": "string"
+      },
+      "fontSize": {
+        "type": "number",
+        "minimum": 8,
+        "maximum": 60
+      },
+      "invertAxis": {
+        "type": "boolean"
+      },
+      "start": {
+        "type": "number"
+      },
+      "end": {
+        "type": "number"
+      },
+      "labelDisplayUnits": {
+        "type": "integer",
+        "enum": [
+          0,
+          1,
+          1000,
+          1000000,
+          1000000000,
+          1000000000000
+        ]
+      },
+      "gridlineShow": {
+        "type": "boolean"
+      }
+    }
+  },
+  "slicer": {
+    "header": {
+      "show": {
+        "type": "boolean"
+      },
+      "fontColor": {
+        "type": "color"
+      },
+      "textSize": {
+        "type": "number",
+        "minimum": 8,
+        "maximum": 60
+      }
+    },
+    "items": {
+      "fontColor": {
+        "type": "color"
+      },
+      "background": {
+        "type": "color"
+      },
+      "textSize": {
+        "type": "number",
+        "minimum": 8,
+        "maximum": 60
+      }
+    }
+  },
+  "stackedAreaChart": {
+    "labels": {
+      "show": {
+        "type": "boolean"
+      },
+      "labelPosition": {
+        "type": "string",
+        "enum": [
+          "Auto",
+          "InsideEnd",
+          "OutsideEnd",
+          "InsideCenter",
+          "InsideBase",
+          "Above",
+          "Under"
+        ]
+      },
+      "labelDisplayUnits": {
+        "type": "integer",
+        "enum": [
+          0,
+          1,
+          1000,
+          1000000,
+          1000000000,
+          1000000000000,
+          -1
+        ]
+      },
+      "labelPrecision": {
+        "type": "integer"
+      },
+      "fontSize": {
+        "type": "number",
+        "minimum": 8,
+        "maximum": 60
+      },
+      "color": {
+        "type": "color"
+      },
+      "bold": {
+        "type": "boolean"
+      },
+      "fontFamily": {
+        "type": "string"
+      }
+    },
+    "legend": {
+      "show": {
+        "type": "boolean"
+      },
+      "position": {
+        "type": "string",
+        "enum": [
+          "Top",
+          "TopCenter",
+          "TopRight",
+          "Left",
+          "Right",
+          "LeftCenter",
+          "RightCenter",
+          "Bottom",
+          "BottomCenter",
+          "BottomRight"
+        ]
+      },
+      "showTitle": {
+        "type": "boolean"
+      },
+      "titleText": {
+        "type": "string"
+      },
+      "fontSize": {
+        "type": "number",
+        "minimum": 8,
+        "maximum": 60
+      }
+    },
+    "categoryAxis": {
+      "show": {
+        "type": "boolean"
+      },
+      "showAxisTitle": {
+        "type": "boolean"
+      },
+      "titleText": {
+        "type": "string"
+      },
+      "fontSize": {
+        "type": "number",
+        "minimum": 8,
+        "maximum": 60
+      },
+      "invertAxis": {
+        "type": "boolean"
+      },
+      "start": {
+        "type": "number"
+      },
+      "end": {
+        "type": "number"
+      },
+      "labelDisplayUnits": {
+        "type": "integer",
+        "enum": [
+          0,
+          1,
+          1000,
+          1000000,
+          1000000000,
+          1000000000000
+        ]
+      },
+      "gridlineShow": {
+        "type": "boolean"
+      },
+      "preferredCategoryWidth": {
+        "type": "number"
+      },
+      "axisType": {
+        "type": "string",
+        "enum": [
+          "Scalar",
+          "Categorical"
+        ]
+      }
+    },
+    "dataPoint": {
+      "defaultColor": {
+        "type": "color"
+      }
+    },
+    "valueAxis": {
+      "show": {
+        "type": "boolean"
+      },
+      "showAxisTitle": {
+        "type": "boolean"
+      },
+      "titleText": {
+        "type": "string"
+      },
+      "fontSize": {
+        "type": "number",
+        "minimum": 8,
+        "maximum": 60
+      },
+      "invertAxis": {
+        "type": "boolean"
+      },
+      "start": {
+        "type": "number"
+      },
+      "end": {
+        "type": "number"
+      },
+      "labelDisplayUnits": {
+        "type": "integer",
+        "enum": [
+          0,
+          1,
+          1000,
+          1000000,
+          1000000000,
+          1000000000000
+        ]
+      },
+      "gridlineShow": {
+        "type": "boolean"
+      }
+    }
+  },
+  "treemap": {
+    "labels": {
+      "show": {
+        "type": "boolean"
+      },
+      "labelDisplayUnits": {
+        "type": "integer",
+        "enum": [
+          0,
+          1,
+          1000,
+          1000000,
+          1000000000,
+          1000000000000
+        ]
+      },
+      "labelPrecision": {
+        "type": "integer"
+      },
+      "fontSize": {
+        "type": "number",
+        "minimum": 8,
+        "maximum": 60
+      },
+      "color": {
+        "type": "color"
+      },
+      "bold": {
+        "type": "boolean"
+      },
+      "fontFamily": {
+        "type": "string"
+      }
+    },
+    "categoryLabels": {
+      "show": {
+        "type": "boolean"
+      },
+      "fontSize": {
+        "type": "number",
+        "minimum": 8,
+        "maximum": 60
+      },
+      "color": {
+        "type": "color"
+      },
+      "bold": {
+        "type": "boolean"
+      }
+    },
+    "legend": {
+      "show": {
+        "type": "boolean"
+      },
+      "position": {
+        "type": "string",
+        "enum": [
+          "Top",
+          "TopCenter",
+          "TopRight",
+          "Left",
+          "Right",
+          "LeftCenter",
+          "RightCenter",
+          "Bottom",
+          "BottomCenter",
+          "BottomRight"
+        ]
+      },
+      "showTitle": {
+        "type": "boolean"
+      },
+      "titleText": {
+        "type": "string"
+      },
+      "fontSize": {
+        "type": "number",
+        "minimum": 8,
+        "maximum": 60
+      }
+    }
+  },
+  "waterfallChart": {
+    "labels": {
+      "show": {
+        "type": "boolean"
+      },
+      "labelPosition": {
+        "type": "string",
+        "enum": [
+          "Auto",
+          "InsideEnd",
+          "OutsideEnd",
+          "InsideCenter",
+          "InsideBase",
+          "Above",
+          "Under"
+        ]
+      },
+      "labelDisplayUnits": {
+        "type": "integer",
+        "enum": [
+          0,
+          1,
+          1000,
+          1000000,
+          1000000000,
+          1000000000000
+        ]
+      },
+      "labelPrecision": {
+        "type": "integer"
+      },
+      "fontSize": {
+        "type": "number",
+        "minimum": 8,
+        "maximum": 60
+      },
+      "color": {
+        "type": "color"
+      },
+      "bold": {
+        "type": "boolean"
+      },
+      "fontFamily": {
+        "type": "string"
+      }
+    },
+    "legend": {
+      "show": {
+        "type": "boolean"
+      },
+      "position": {
+        "type": "string",
+        "enum": [
+          "Top",
+          "TopCenter",
+          "TopRight",
+          "Left",
+          "Right",
+          "LeftCenter",
+          "RightCenter",
+          "Bottom",
+          "BottomCenter",
+          "BottomRight"
+        ]
+      },
+      "showTitle": {
+        "type": "boolean"
+      },
+      "titleText": {
+        "type": "string"
+      },
+      "fontSize": {
+        "type": "number",
+        "minimum": 8,
+        "maximum": 60
+      }
+    },
+    "categoryAxis": {
+      "show": {
+        "type": "boolean"
+      },
+      "showAxisTitle": {
+        "type": "boolean"
+      },
+      "titleText": {
+        "type": "string"
+      },
+      "fontSize": {
+        "type": "number",
+        "minimum": 8,
+        "maximum": 60
+      },
+      "preferredCategoryWidth": {
+        "type": "number"
+      }
+    },
+    "valueAxis": {
+      "show": {
+        "type": "boolean"
+      },
+      "showAxisTitle": {
+        "type": "boolean"
+      },
+      "titleText": {
+        "type": "string"
+      },
+      "fontSize": {
+        "type": "number",
+        "minimum": 8,
+        "maximum": 60
+      },
+      "invertAxis": {
+        "type": "boolean"
+      },
+      "start": {
+        "type": "number"
+      },
+      "end": {
+        "type": "number"
+      },
+      "labelDisplayUnits": {
+        "type": "integer",
+        "enum": [
+          0,
+          1,
+          1000,
+          1000000,
+          1000000000,
+          1000000000000
+        ]
+      },
+      "gridlineShow": {
+        "type": "boolean"
+      }
+    }
+  }
+}

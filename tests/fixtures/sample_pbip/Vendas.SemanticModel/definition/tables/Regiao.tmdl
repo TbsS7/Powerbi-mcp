@@ -1,0 +1,20 @@
+table Regiao
+
+	column RegiaoId
+		dataType: int64
+		sourceColumn: RegiaoId
+		summarizeBy: none
+
+	column Nome
+		dataType: string
+		sourceColumn: Nome
+		summarizeBy: none
+
+	partition Regiao = m
+		mode: import
+		source =
+				let
+					Source = 1
+				in
+					Source
+
